@@ -53,4 +53,32 @@ h2{
 h3{
     font-size: 2.4rem;
 }
-
+/*header*/
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    margin: 3rem 0;
+}
+/*navegacion*/
+.navegacion{
+    background-color: var(--primarioObscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.navegacion__enlace{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+    margin-right: 4rem;
+}
+.navegacion__enlace:nth-child(2){
+    margin-right: 0;
+}
+.navegacion__enlace:hover,
+.navegacion__enlace--activo{
+    color: var(--secundario);
+}
